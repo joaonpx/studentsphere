@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StudentSphere</title>
@@ -8,6 +15,44 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <header class="header-container">
+      <h1>StudentSphere</h1>
+
+      <button class="btn add-student">Adicionar aluno</button>
+    </header>
+
+    <main class="main-container">
+      <ol class="students-list">
+        <li class="student">
+          <div class="student-content">
+            <div class="student-info">
+              <span class="student-number">1.</span>
+              <span class="student-name">Nome do aluno</span>
+            </div>
+
+            <img
+              class="delete-student"
+              src="./assets/x.svg"
+              alt="X para deletar estudante"
+            />
+          </div>
+        </li>
+        <li class="student">
+          <div class="student-content">
+            <div class="student-info">
+              <span class="student-number">2.</span>
+              <span class="student-name">Nome do aluno</span>
+            </div>
+
+            <img
+              class="delete-student"
+              src="./assets/x.svg"
+              alt="X para deletar estudante"
+            />
+          </div>
+        </li>
+      </ol>
+    </main>
     <script src="./main.js"></script>
   </body>
 </html>
