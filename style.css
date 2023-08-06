@@ -1,3 +1,4 @@
+/* ---------- global ---------- */
 * {
   margin: 0;
   padding: 0;
@@ -49,20 +50,20 @@ body {
   box-shadow: 0 0 4rem var(--primary);
 }
 
-/* header */
+/* ---------- header ---------- */
 .header-container {
   height: 20%;
 
   display: flex;
-  flex-direction: column;
-  gap: 5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .header-container h1 {
   font-size: 3.2rem;
 }
 
-/* main */
+/* ---------- main ---------- */
 .main-container {
   padding-top: 4rem;
 }
